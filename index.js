@@ -11,7 +11,7 @@ humidity = document.getElementById("humidity-div");
 
 searchButton.addEventListener("click", findWeatherDetails);
 searchInput.addEventListener("keyup", enterPressed);
- // getTodaysWeather(searchValue);
+
 }
 
 $(mainFunction)
