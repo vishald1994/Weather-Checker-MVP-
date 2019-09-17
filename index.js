@@ -1,5 +1,5 @@
 function mainFunction() {
-   const searchCity =            searchCity.value;
+   const searchCity = searchCity.value;
   getTodaysWeather(searchValue);
 })
 
