@@ -1,23 +1,20 @@
-function mainFunction() {
-   const searchCity = searchCity.value;
-  getTodaysWeather(searchValue);
-})
+const  appKey = "501859519a7e0d160d90e4719d76e3c6";
+let searchInput , searchInput ,cityName ,  icon, temperature ,humidity, searchButton 
 
-getTodaysWeather();
-
-}
-
-$(mainFunction)
-const appKey = "501859519a7e0d160d90e4719d76e3c6";
-let searchButton = document.getElementById("search-btn");
-let searchInput = document.getElementById("search-txt");
-let cityName = document.getElementById("city-name");
-let icon = document.getElementById("icon");
-let temperature = document.getElementById("temp");
-let humidity = document.getElementById("humidity-div");
+function mainFunction() {  
+searchButton = document.getElementById("search-btn");
+searchInput = document.getElementById("search-txt");
+cityName = document.getElementById("city-name");
+icon = document.getElementById("icon");
+temperature = document.getElementById("temp");
+humidity = document.getElementById("humidity-div");
 
 searchButton.addEventListener("click", findWeatherDetails);
 searchInput.addEventListener("keyup", enterPressed);
+  getTodaysWeather(searchValue);
+}
+
+$(mainFunction)
 
 function enterPressed(event) {
   if (event.key === "Enter") {
