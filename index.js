@@ -1,5 +1,5 @@
 const  appKey = "501859519a7e0d160d90e4719d76e3c6";
-let searchInput ,cityName ,  icon, temperature ,humidity, searchButton;
+let searchInput ,cityName ,  icon, temperature ,humidity, searchButton 
 
 function mainFunction() {  
 searchButton = document.getElementById("search-btn");
@@ -17,19 +17,7 @@ searchInput.addEventListener("keyup", enterPressed);
 $(mainFunction)
 
 function enterPressed(event) {
- ne;
-  padding-right:1px;
-  padding-left:1px;
-  text-align:center;
-}
-
-.search {
-  position: absolute;
-  left: 50%;
-  top:50%;
-  -webkit-transform:translate(-50%,-50%);
-          transform:translate(-50%,-50%);
-}*/ if (event.key === "Enter") {
+  if (event.key === "Enter") {
     findWeatherDetails();
   }
 }
@@ -68,4 +56,3 @@ function httpRequestAsync(url, callback)
     httpRequest.open("GET", url, true); // true for asynchronous
     httpRequest.send();
 }
-
