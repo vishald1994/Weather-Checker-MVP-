@@ -1,5 +1,5 @@
 const  appKey = "501859519a7e0d160d90e4719d76e3c6";
-let searchInput , searchInput ,cityName ,  icon, temperature ,humidity, searchButton 
+let searchInput ,cityName ,  icon, temperature ,humidity, searchButton 
 
 function mainFunction() {  
 searchButton = document.getElementById("search-btn");
