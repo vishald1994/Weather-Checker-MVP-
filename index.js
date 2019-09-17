@@ -1,3 +1,18 @@
+function mainFunction() {
+   const searchCity = document.getElementById('searchCity');
+const appID = "501859519a7e0d160d90e4719d76e3c6";
+const weatherParam = 'weather';
+
+searchCity.addEventListener('change', () => {
+  const searchValue = searchCity.value;
+  getTodaysWeather(searchValue);
+})
+
+getTodaysWeather();
+
+}
+
+$(mainFunction)
 const searchCity = document.getElementById('searchCity');
 const appID = "501859519a7e0d160d90e4719d76e3c6";
 const weatherParam = 'weather';
